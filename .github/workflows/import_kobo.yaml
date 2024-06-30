@@ -32,8 +32,8 @@ jobs:
           
       - name: commit results
         run: |
-          git config --local user.email "kn.samati@gmail.com"
-          git config --local user.name "knsamati"
-          git add df.rds
+          git config --local user.email "richarddzidzinyo@yahoo.fr"
+          git config --local user.name "richareskodata"
+          git add visites.rds
           git commit -m 'Data updated' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
